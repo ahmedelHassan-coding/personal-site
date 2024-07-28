@@ -1,0 +1,24 @@
+#skills{
+    background-color:var(--primary-color);
+}
+
+
+
+#skills .row img{
+
+    max-width: 40px;
+}
+#skills h2{
+    color: white;
+}
+#skills .skills-content{
+margin-top:2rem;
+    background-color: #0f272d;
+}
+
+#skills .skills-content .row {
+     display: grid;
+  grid-template-columns: repeat(4,1fr);
+     
+     
+}

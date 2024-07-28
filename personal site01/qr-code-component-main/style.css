@@ -1,0 +1,46 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#QR  {
+
+    width: 300px;
+    height: 410px;
+    text-align: center;
+    /* background-color:red; */
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    box-shadow: 4px 4px 4px 0 #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+ 
+#QR .parent img {
+width: 260px;
+margin-top: 10px;
+border-radius: 10px;
+/* padding: 0 2px; */
+
+}
+
+
+#QR .parent .qrtext h2{
+    margin-top: 15px;
+}
+ #QR .parent .qrtext p{
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+color: grey;
+font-size: 15px; 
+    
+}
+ 
