@@ -7,8 +7,7 @@
     <!-- css main link -->
     <link rel="stylesheet" href="style.css">
             <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="shortcut icon" href="swr/favicon.ico" type="image/x-icon" >
 
@@ -36,9 +35,9 @@
                <p class="title">frontend web developer</p>
                   <div class="social">
                   <a href="https://github.com/" target="_blank">
-                     <i class="fa-brands fa-github fa-3x"></i>
                      <i class="fa-brands fa-github fa-2x"></i>
-                     <i class="fa-brands fa-github fa-3x"></i>
+                     <i class="fa-brands fa-facebook fa-2x"></i>
+                     <i class="fa-brands fa-whatsapp fa-2x"></i>
 
 
                   </a>
@@ -98,52 +97,59 @@
        <h2>skills <span class="text-primary">Abiliets</span></h2> 
        <hr>
    
-               <div class="skills-content">
-                       <div class="row">
-                           <div class="item">
-                               <img src="swr/html(5).jfif" alt="Html5">
-                               <p>Html5</p>    
-                       </div> <div class="item">
-                        <img src="swr/css3.jfif" alt="Html5">
-                        <p>Css3</p>    
-                </div><div class="item">
-                  <img src="swr/th (1).jfif" alt="Git">
-                  <p>Git</p>    
-          </div><div class="item">
-            <img src="swr/th (2).jfif" alt="bootstrap">
-            <p>bootstrap</p>    
-    </div><div class="item">
-      <img src="swr/th (3).jfif" alt="Angular">
-      <p>Angular</p>    
-</div><div class="item">
-   <img src="swr/th (4).jfif" alt="Sass">
-   <p>Sass</p>    
-</div><div class="item">
-   <img src="swr/th.jfif" alt="Java script">
-   <p>Java script</p>    
-</div><div class="item">
-   <img src="swr/th (6).jfif" alt="typescript">
-   <p>TypeScript</p>    
-</div>
-                       
-   
-   
-   
+       <div class="skills-content">
+           <div class="row">
+               <div class="item">
+                   <img src="swr/html(5).jfif" alt="Html5">
+                   <p>Html5</p>    
+               </div> 
+               <div class="item">
+                   <img src="swr/css3.jfif" alt="Html5">
+                   <p>Css3</p>    
                </div>
-   
-   
-   
-   
-   
+               <div class="item">
+                   <img src="swr/th (1).jfif" alt="Git">
+                   <p>Git</p>    
+               </div>
+               <div class="item">
+                   <img src="swr/th (2).jfif" alt="bootstrap">
+                   <p>bootstrap</p>    
+               </div>
+               <div class="item">
+                   <img src="swr/th (3).jfif" alt="Angular">
+                   <p>Angular</p>    
+               </div>
+               <div class="item">
+                   <img src="swr/th (4).jfif" alt="Sass">
+                   <p>Sass</p>    
+               </div>
+               <div class="item">
+                   <img src="swr/th.jfif" alt="Java script">
+                   <p>Java script</p>    
+               </div>
+               <div class="item">
+                   <img src="swr/th (6).jfif" alt="typescript">
+                   <p>TypeScript</p>    
+               </div>
+           </div>
+       </div>
    </div>
-   
-   
-   </section>
+</section>
 
+<style>
+/* Add a smooth transition to the images */
+.item img {
+   transition: transform 0.3s ease;
+   width: 100%;
+   /* height: 100%; */
+   object-fit: cover;
+}
 
-
-
-
+/* Scale the image when hovered */
+.item img:hover {
+   transform: scale(1.1);
+}
+</style>
 
 <!-- end skills -->
 
@@ -162,9 +168,9 @@
 
 <div class="row">
 <div class="item">
-   <img src="swr/Screenshot (16).png" alt="">
-   <h3>PHOTO_BOOTH site</h3>
-   <p><a href="https://click360qatar.com/">here</a></p>
+   <img src="swr/html-logo.png" alt="">
+   <h3>Web development</h3>
+   <p>i can build a website by using Html, css , java script</p>
 </div>
 <div class="item">
    <img src="swr/html-logo.png" alt="">
@@ -204,34 +210,110 @@
 
 <!-- /End servises -->
 
-<section id="Contact">
+   <!-- gallery -->
+   <main class="places-container">
+      <h1>Places I Want to Visit</h1>
+      <div class="slider-container">
+          <div class="slider">
+              <div class="slide" id="slide1">
+                  <div class="slide-content">
+                      <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1920&q=80" 
+                           alt="Japan - Mount Fuji">
+                      <div class="slide-info">
+                          <h2>Japan</h2>
+                          <p>Experience the perfect blend of tradition and modernity in Japan. From ancient temples to futuristic cities, discover a culture like no other.</p>
+                          <div class="place-highlights">
+                              <span>🏯 Cultural Heritage</span>
+                              <span>🍜 Cuisine</span>
+                              <span>🗻 Nature</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="slide" id="slide2">
+                  <div class="slide-content">
+                      <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80" 
+                           alt="Italy - Cinque Terre">
+                      <div class="slide-info">
+                          <h2>Italy</h2>
+                          <p>Discover the rich history and culinary delights of Italy. Immerse yourself in art, architecture, and the Mediterranean way of life.</p>
+                          <div class="place-highlights">
+                              <span>🎨 Art</span>
+                              <span>🍝 Food</span>
+                              <span>🏛️ History</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="slide" id="slide3">
+                  <div class="slide-content">
+                      <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1920&q=80" 
+                           alt="Canada - Banff National Park">
+                      <div class="slide-info">
+                          <h2>Canada</h2>
+                          <p>Explore the stunning natural beauty and wilderness of Canada. From pristine lakes to majestic mountains, adventure awaits.</p>
+                          <div class="place-highlights">
+                              <span>🏔️ Mountains</span>
+                              <span>🌲 Forests</span>
+                              <span>🦌 Wildlife</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="slider-nav">
+              <a href="#slide1" class="slider-dot"></a>
+              <a href="#slide2" class="slider-dot"></a>
+              <a href="#slide3" class="slider-dot"></a>
+          </div>
+      </div>
+  </main>
+
+
+
+   <!-- end gallery -->
+
+ <!-- start contact -->
+ <section id="Contact">
    <div class="container">
- <h2>Get IN<span class="text-primary">Touch</span></h2>
+      <h2>Get IN<span class="text-primary">Touch</span></h2>
 
-<div class="row">
-<img src="swr/th (5).jfif" alt="">
+      <div class="row">
+         <img src="swr/th (5).jfif" alt="">
 
-<form action="https://formsubmit.co/ahmedelhassan2234@gmail.com" method="POST">
-<input type="text" id="name" placeholder="name" required>
+         <form action="https://formsubmit.co/ahmedelhassan2234@gmail.com" method="POST" onsubmit="document.getElementById('show-message').checked = true; return false;">
+            <input type="text" id="name" placeholder="name" required>
+            <input type="email" id="email" placeholder="email" required>
+            <textarea name="message" id="message" placeholder="message" rows="10"></textarea>
 
-<input type="email" id="email" placeholder="email" required>
-<textarea name="message" id="message" placeholder="message" rows="10"></textarea>
+            <button type="submit" class="btn-primary">submit</button>
 
-<button type="submit" class="btn-primary" >submit</button>
-
-
-
-</form>
-</div>
-
-
-
-
+            <!-- Hidden checkbox to control the thank-you message -->
+            <input type="checkbox" id="show-message" style="display: none;">
+            
+            <div id="thank-you">
+               <h3>Thank You for Your Message! 😊</h3>
+               <label for="show-message">Send Another Message</label>
+            </div>
+         </form>
+      </div>
    </div>
-
-
-
 </section>
+
+<style>
+/* Hide the thank-you message by default */
+#thank-you {
+   display: none;
+}
+
+/* Show the thank-you message when the checkbox is checked */
+#show-message:checked ~ #thank-you {
+   display: block;
+}
+</style>
 
 
 <!-- End contact -->
@@ -243,7 +325,7 @@
 <footer >
 <div class="footer">
 <div class="footer-text">
-   <h2>&copy; 2024 | All rights reserved</h2>
+   <h2>&copy; 2025 | All rights reserved</h2>
 </div>
 </div>
 
